@@ -6,8 +6,8 @@ updates:
     schedule:
       interval: "daily"
     labels:
-      - "triagle-required"
-    assigness:
+      - "triage-required"
+    assignees:
       - "dungeonstechlead"
     reviewers:
       - "dragonsengineer"

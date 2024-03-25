@@ -1,0 +1,15 @@
+# Use `allow` to specify which dependencies to maintain
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/authn-service"
+    schedule:
+      interval: "daily"
+    labels:
+      - "triagle-required"
+    assigness:
+      - "dungeonstechlead"
+    reviewers:
+      - "dragonsengineer"
+    commit-message:
+      prefix: "pip"
